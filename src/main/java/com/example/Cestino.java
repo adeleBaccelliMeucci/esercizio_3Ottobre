@@ -7,7 +7,11 @@ public class Cestino {
         return contatore;
     }
 
-    public Cestino(){
-        
+    public Cestino(int contatore){
+        this.contatore = contatore;
+    }
+
+    public void agiungiMoneta(){
+        contatore = contatore + 1;
     }
 }

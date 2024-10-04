@@ -11,7 +11,7 @@ public class Cestino {
         this.contatore = contatore;
     }
 
-    public void agiungiMoneta(){
+    synchronized public void agiungiMoneta(){ //con synchronized non ci sono problemi di sincronizazione con i thread
         contatore = contatore + 1;
     }
 }

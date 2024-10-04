@@ -6,8 +6,8 @@ public class Main {
 
         Cestino c = new Cestino(0); //metto il cestino =0
 
-        Persona p1 = new Persona(c, 100); //persona con n monete
-        Persona p2 = new Persona(c, 100);
+        Persona p1 = new Persona(c, 1000); //persona con n monete
+        Persona p2 = new Persona(c, 1000);
         //c è un oggetto, il cestino è in comune
 
         p1.start();
